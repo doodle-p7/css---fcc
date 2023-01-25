@@ -1,0 +1,37 @@
+1. Ways to incorporate css in html: 
+    a. inline
+    b. internal
+    c. external
+    and priority of inline is the maximum and between internal and external, one that comes last will get the highest priority
+
+2. Selectors:
+    a. element 
+    b. class 
+    c. id   
+    -> selector grouping
+    p span{
+    }
+    ->main tag
+    ->Specificity for selectors
+       element<class<id
+       We like to keep classes for style, ids for #links
+       https://dev.to/clairecodes/reasons-not-to-use-ids-in-css-4ni4
+
+3. CSS units and sizes
+    a. px
+    b. %
+    c. rem
+    d. em
+    e. ch : the advance measure(width) of the glyph "0" of the element's font
+    f. vw : 1% of the viewport's width
+    g. vh : 1% of the viewport's height
+    -> 16px is the default font-size of the browser
+       settings - 16px
+       header- h1 - 50% 
+       px
+       % 
+    -> rem - set from root's size
+    -> em - set from parent's font-size and current element when font size is set for that   element, rem - root element 
+    -> Usage:
+        rem => font-size
+        em => padding and margins on button, titles etc.
